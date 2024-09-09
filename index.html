@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertifikat Pencapaian Tidak Berguna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sertifikat Pencapaian Tidak Berguna</h1>
+        <p>Masukkan nama anda dan pilih pencapaian tidak berguna untuk mendapatkan sertifikat!</p>
+
+        <form id="certificateForm">
+            <input type="text" id="nameInput" placeholder="Masukkan nama Anda" required>
+            <input type="text" id="achievementInput" placeholder="Masukkan pencapaian Anda" required>
+            <button type="submit">Cetak Sertifikat</button>
+        </form>
+
+        <div id="certificateDisplay">
+            <img id="certificateImage" alt="Sertifikat" />
+        </div>
+        
+        <a id="downloadLink" download="Sertifikat.png" style="display:none; background-color: #4CAF50; padding: 10px; text-decoration: none; color: white; margin-top: 20px;">Download Sertifikat</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
